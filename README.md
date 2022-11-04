@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 <br>
 
 <p align="center">
-  <img src="src\assets\img\Capture.PNG
+  <img src="src\assets\Capture.PNG
 "/>
 </p>
 
