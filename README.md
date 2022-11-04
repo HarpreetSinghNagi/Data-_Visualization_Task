@@ -10,7 +10,7 @@
 
 
 <p align="center">
-  Deployed ().
+  Deployed (https://data-visualization-task.vercel.app/).
 </p>
 
 <br>
