@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 <br>
 
 <p align="center">
-  <img src="src\assets\Capture.PNG
+  <img src="src\assets\![Capture](https://user-images.githubusercontent.com/66674173/199969939-b1fc82e4-2787-4c1b-bf08-1ddd456bca20.PNG)
 "/>
 </p>
 
