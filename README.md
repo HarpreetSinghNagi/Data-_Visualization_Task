@@ -22,7 +22,7 @@
 <br>
 
 <p align="center">
-  <img src="https://ibb.co/SQpMpNw"/>
+  <img src="src\assets\image.jpg"/>
 </p>
 
 <br>
