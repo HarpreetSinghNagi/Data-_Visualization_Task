@@ -7,9 +7,9 @@ const items=[];
 for (var ele of text) 
 {
 
-//   if(ele.Alcohol=== 1)
-//   // console.log("run");
-  items.push([ele["Color intensity"] , ele.Hue]);
+// array of pairs contains hue and color intensity 
+
+  items.push([ ele.Hue , ele["Color intensity"] ]);
   
 //    if(ele.Alcohol=== 2)
 //   // console.log("run");
@@ -20,9 +20,7 @@ for (var ele of text)
 //   items.push([ele["Color intensity"] , ele.Hue]);
  
 }
-// console.log(items1)
-// console.log(items2)
-// console.log(items3)
+
 
 
 

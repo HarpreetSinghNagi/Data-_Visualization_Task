@@ -1,7 +1,7 @@
 import React from "react";
 import ReactEcharts from "echarts-for-react"; 
 import variableName from "./js/name"
-import arrays  from "./js/graphArray";
+import arrays  from "./js/graphArray.js";
 function Graph() {  
   
  

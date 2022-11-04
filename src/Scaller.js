@@ -56,7 +56,7 @@ function Scatter() {
    
     
     legend: {
-      data: ['Color intensity', 'Hue'],
+      data: [ 'Hue' , 'Color intensity'],
       left: 'center',
       bottom: 10
     },
@@ -64,7 +64,7 @@ function Scatter() {
       {
         type: 'value',
         scale: true,
-        name: 'Color intensity',
+        name: 'Hue',
         rotate:50,
        
         splitLine: {
@@ -76,7 +76,7 @@ function Scatter() {
       {
         type: 'value',
         scale: true,
-        name: 'Hue',
+        name: 'Color intensity',
        
         splitLine: {
           show: false
