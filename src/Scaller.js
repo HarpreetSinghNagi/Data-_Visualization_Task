@@ -1,18 +1,17 @@
 import React from "react";
 import ReactEcharts from "echarts-for-react"; 
-import arrays from './js/varialbes'
-function Graph() { 
+import arrays from './js/scatterArray'
+function Scatter() { 
 
-  console.log(arrays)
+  // console.log(arrays)
   
-  var items1 = arrays[0];
-  var items2 = arrays[1];
-  var items3 = arrays[2] ;
+
+  
  const  option = {
     title: {
-      text: 'Wine Qualtiy ',
-      subtext: 'Wine Data Set',
-      x:'center'
+      
+      subtext: 'Scatter plot',
+      
     },
     grid: {
       left: '3%',
@@ -44,6 +43,7 @@ function Graph() {
           );
         }
       },
+    
       axisPointer: {
         show: true,
         type: 'cross',
@@ -64,8 +64,9 @@ function Graph() {
       {
         type: 'value',
         scale: true,
-        name: 'Color intensity ',
-      
+        name: 'Color intensity',
+        rotate:50,
+       
         splitLine: {
           show: false
         }
@@ -84,44 +85,22 @@ function Graph() {
     ],
     series: [
       {
-        name: 'Alchol 1',
+        name: 'Alchol ',
         type: 'scatter',
         emphasis: {
           focus: 'series'
         },
        
-        data: items1
+        data: arrays
           
       
        
       
       },
-      {
-        name: 'Alchol 2',
-        type: 'scatter',
-        emphasis: {
-          focus: 'series'
-        },
-       
-        data: items2,
-      
-      
      
-      },
-       {
-        name: 'Alchol 3',
-        type: 'scatter',
-        emphasis: {
-          focus: 'series'
-        },
        
-        data:items3 ,
-      
-      
-     
-      }
     ]
   };
 return <ReactEcharts option={option} />;
 } 
-export default Graph;
+export default Scatter;
