@@ -55,7 +55,11 @@ const Scatter = ({data}) => {
                 type: 'value',
                 scale: true,
                 name: 'Color intensity',
-
+                nameLocation: "center",
+                nameGap: 25,
+                nameTextStyle: {
+                  align: "center"
+                },
                 splitLine: {
                     show: false
                 }
