@@ -1,13 +1,14 @@
 import React from 'react';
-import './App.css';
-import Graph from './Graph'
-import Scatter from './Scaller'
+import './styles/App.css';
+import Graph from './components/Graph';
+import Scatter from './components/Scaller'
+import data from './data/wine.js'
  
 function App() {
   return (
     <div className="App">
-          <Graph/>
-          <Scatter/>
+          <Graph data={data}/>
+          <Scatter  data={data} />
           
     </div>
   );

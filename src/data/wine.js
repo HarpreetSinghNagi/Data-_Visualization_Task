@@ -1,5 +1,5 @@
 
-[
+export default [
       {
         "Alcohol": 1,
         "Malic Acid": 14.23,
