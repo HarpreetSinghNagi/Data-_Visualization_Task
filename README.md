@@ -22,7 +22,7 @@
 <br>
 
 <p align="center">
-  <img src="src\assets\image.jpg"/>
+  <img src="src\assets\image.png"/>
 </p>
 
 <br>
