@@ -1,13 +1,13 @@
 import React from "react";
 import ReactEcharts from "echarts-for-react";
 
-const Scatter = ({data}) => {
+const Scatter : React.FC<{data : any}> =  ({data}) => {
 
     const passOption = () => {
-        let dataSet = [];
+        let dataSet : any = [];
 
         // passing  data for displaying on chart in dataSet
-        data.forEach((item) => {
+        data.forEach((item : any) => {
             dataSet.push([item["Color intensity"], item["Hue"]]);
         });
 
@@ -19,7 +19,7 @@ const Scatter = ({data}) => {
             },
             tooltip: {
                 showDelay: 0,
-                formatter: function(params) {
+                formatter: function(params : any) {
                     if (params.value.length > 1) {
                         return (
                             params.seriesName +

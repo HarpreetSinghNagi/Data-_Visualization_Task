@@ -4,16 +4,16 @@ import ReactEcharts from "echarts-for-react";
 
 
 
-const Graph = ({ data }) => {
-  const getOption = () => {
+const Graph : React.FC<{data : any}> =  ({data}) => {
+  const passOption = () => {
    
-    let alcholTypes = {};
+    let alcholTypes : any  = {};
 
     
-    let MalicAvg = [];
+    let MalicAvg : any = [];
 
-    data.forEach((obj) => {
-      if (alcholTypes[obj["Alcohol"]]) {
+    data.forEach((obj : any ) => {
+      if (alcholTypes[obj["Alcohol"]] ) {
         alcholTypes[obj["Alcohol"]][0] += obj["Malic Acid"];
         alcholTypes[obj["Alcohol"]][1]++;
       } else {
@@ -32,7 +32,7 @@ const Graph = ({ data }) => {
 
    
     console.log(MalicAvg)
-    console.log(alcholTypes)
+    
 
   
  
@@ -72,6 +72,6 @@ return option;
 
 
  
-return <ReactEcharts option={getOption()}  />;
+return <ReactEcharts option={passOption()}  />;
 } 
 export default Graph;
